@@ -1,0 +1,52 @@
+@media(max-width: 660px) {
+    .opt-1 {
+        margin-top: 9px;
+    }
+    .form-1 .cus-select-wrapper {
+        margin-top: 10px;
+    }
+    .card-5 {
+        width: 100%;
+    }
+    .profile-nav .nav-item {
+        min-width: 143px;
+    }
+    .btn-6 {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .cus-select-wrapper {
+        width: 70%;
+        margin: auto;
+    }
+    .card-sub-distance {
+        padding: 5px 30px;
+    }
+    .txt-11, .txt-12 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px !important;
+    }
+    .card-5 .form-control {
+        margin-bottom: 8px;
+    }
+    .btn-10 {
+        margin-left: 0px;
+        margin-top: 10px !important;
+    }
+    .btn-11 {
+        margin-left: 0 !important;
+    }
+    .txt-17 {
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .box-9 {
+        width: 100%;
+    }
+    .next-job-card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

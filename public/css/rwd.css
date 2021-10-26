@@ -1,0 +1,77 @@
+@media (max-width:768px) {
+    .register-content {
+        height: 110vh;
+    }
+    .box-1 {
+        display: none;
+    }
+    .login-snip {
+        padding-top: 20px;
+    }
+    .txt-1 {
+        font-size: 20px;
+        margin-top: 10px !important;
+    }
+    .txt-9 {
+        font-size: 18px;
+    }
+    .box-x .row:first-child {
+        padding-top: 0px !important;
+    }
+    .logo {
+        max-width: 30%;
+    }
+    .row-1 {
+        justify-content: center;
+    }
+    .form-1 {
+        margin-top: 10px;
+    }
+}
+@media (max-width:991px) {
+    .desktop {
+        display: none;
+    }
+    .box-021 {
+        display: none;
+    }
+}
+@media (min-width:991px) {
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width:1500px) {
+    .txt-5 {
+        display: none;
+    }
+    .card-2 {
+        display: flex;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+        opacity: 1;
+    }
+    
+    .card-2:not(:first-child) {
+        margin-left: -50px;
+    }
+    
+    .card-2:hover {
+        transform: translateY(-20px);
+        transition: 0.4s ease-out;
+    }
+    
+    .card-2:hover ~ .card-2 {
+        position: relative;
+        left: 50px;
+        transition: 0.4s ease-out;
+    }
+    .card-box {
+        justify-content: center;
+        position: absolute;
+        width: 45vw;
+        top: 35vh;
+        display: flex;
+    }
+}
